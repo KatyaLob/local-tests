@@ -1,0 +1,17 @@
+{
+  "name": "local-tests",
+  "version": "1.0.0",
+  "description": "UI tests for localcoding.us",
+  "scripts": {
+    "cy:open": "npx cypress open",
+    "cy.run": "npx cypress run",
+    "cy.run:ci": "npx cypress run --record"
+  },
+  "keywords": [],
+  "author": "Katya",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.6.0",
+    "cypress-xpath": "^2.0.1"
+  }
+}
